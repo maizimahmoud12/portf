@@ -1,0 +1,83 @@
+ [
+  {
+    "id": "predictive-maintenance-air-algerie",
+    "title": "Predictive Maintenance System for Aircraft Components",
+    "category": "Data Science",
+    "featured": true,
+    "year": "2026",
+    "client": "Air Algérie (DMRA)",
+    "stack": ["Python", "Pandas", "NumPy", "Scikit-learn", "XGBoost", "Streamlit"],
+    "shortDescription": "Machine learning system predicting aircraft component failures up to 30 days in advance.",
+    "description": "Developed a predictive maintenance system using industrial time-series data from multiple aircraft systems. Built and trained models (Logistic Regression, XGBoost) to detect failure patterns. Designed an interactive dashboard to visualize risk scores and support maintenance decision-making.",
+    "thumbnail": "assets/images/predictive-maintenance-thumb.jpg",
+    "gallery": [
+      "assets/images/predictive-maintenance-thumb.jpg",
+      "assets/images/predictive-maintenance-2.jpg"
+    ],
+    "video": "",
+    "liveUrl": "",
+    "repoUrl": "",
+    "order": 1
+  },
+
+  {
+    "id": "private-cloud-openstack",
+    "title": "Private Cloud Infrastructure using OpenStack",
+    "category": "Cloud Computing",
+    "featured": true,
+    "year": "2025",
+    "client": "ATM Mobilis",
+    "stack": ["OpenStack", "Linux", "Networking", "Virtualization"],
+    "shortDescription": "Designed and deployed a scalable private cloud platform for enterprise use.",
+    "description": "Built a private cloud infrastructure using OpenStack, configuring Nova, Neutron, and Cinder services. Designed a high-availability architecture with redundancy and scalability, and performed performance validation for enterprise-level deployment.",
+    "thumbnail": "assets/images/private-cloud-1.jpg",
+    "gallery": [
+      "assets/images/private-cloud-1.jpg",
+      "assets/images/private-cloud-2.jpg"
+    ],
+    "video": "",
+    "liveUrl": "",
+    "repoUrl": "",
+    "order": 2
+  },
+  {
+    "id": "supply-chain-optimization-saidal",
+    "title": "Supply Chain & Inventory Optimization",
+    "category": "Industrial Engineering",
+    "featured": false,
+    "year": "2024",
+    "client": "Groupe Saidal",
+    "stack": ["Excel", "Data Analysis", "Supply Chain Methods"],
+    "shortDescription": "Optimized inventory and production workflows through data-driven analysis.",
+    "description": "Analyzed supply chain operations for raw materials and finished goods. Identified inefficiencies in stock management and proposed improvements for tracking and planning, contributing to better production and logistics performance.",
+    "thumbnail": "assets/images/supply-chain-thumb.jpg",
+    "gallery": [
+      "assets/images/supply-chain-1.jpg",
+      "assets/images/supply-chain-2.jpg"
+    ],
+    "video": "",
+    "liveUrl": "",
+    "repoUrl": "",
+    "order": 3
+  },
+  {
+    "id": "telecom-network-analysis",
+    "title": "Telecom Network & Infrastructure Analysis",
+    "category": "Telecommunications",
+    "featured": false,
+    "year": "2025",
+    "client": "Huawei / ATM Mobilis",
+    "stack": ["Networking", "DWDM", "Telecom Systems"],
+    "shortDescription": "Analysis of telecom network architecture and transmission systems.",
+    "description": "Studied mobile network architecture (2G/3G/4G), fiber infrastructure, and DWDM transmission systems. Analyzed protocols and contributed to network optimization and virtualization strategies (NFV).",
+    "thumbnail": "assets/images/telecom-thumb.jpg",
+    "gallery": [
+      "assets/images/telecom-1.jpg",
+      "assets/images/telecom-2.jpg"
+    ],
+    "video": "",
+    "liveUrl": "",
+    "repoUrl": "",
+    "order": 4
+  }
+]

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahmoud Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar shell">
+      <a href="index.html" class="brand">MM</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="projects.html">All Work</a>
+        <a href="admin.html" class="pill-link">Admin</a>
+      </div>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell section-grid">
+      <div class="hero-copy reveal">
+        <span class="eyebrow"> Portfolio</span>
+        <h1 id="heroName">Loading...</h1>
+        <p class="hero-role" id="heroRole"></p>
+        <p class="hero-text" id="heroTagline"></p>
+        <div class="hero-actions">
+          <a href="projects.html" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Let’s Talk</a>
+        </div>
+      </div>
+      <div class="hero-panel reveal glass-card">
+        <div class="panel-top">
+          <span class="status-dot"></span>
+          <span>Available for selected projects</span>
+        </div>
+        <p id="heroBio"></p>
+        <div class="stats" id="heroStats"></div>
+      </div>
+    </section>
+
+    <section class="about shell" id="about">
+      <div class="section-heading reveal">
+        <span class="eyebrow">About</span>
+        <h2>Structured, elegant, and built to scale.</h2>
+      </div>
+      <div class="about-grid">
+        <article class="glass-card reveal">
+          <h3>Profile Summary</h3>
+          <p id="aboutBio"></p>
+        </article>
+        <article class="glass-card reveal">
+          <h3>CV Highlights</h3>
+          <ul id="highlightsList" class="feature-list"></ul>
+        </article>
+        <article class="glass-card reveal">
+          <h3>Core Skills</h3>
+          <div id="skillsList" class="tag-wrap"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="featured-section">
+  <div class="container">
+    <span class="eyebrow">Selected Work</span>
+    <h2>projects:</h2>
+
+    <div class="projects-grid" id="featured-projects"></div>
+  </div>
+</section>
+<div class="projects-cta">
+  <a href="projects.html" class="btn btn-primary">
+    View All Projects →
+  </a>
+</div>
+    <section class="contact shell" id="contact">
+      <div class="glass-card contact-card reveal">
+        <span class="eyebrow">Contact</span>
+        <h2>Ready to optimize complex systems and build data-driven solutions?
+</h2>
+        <p>For industrial engineering, supply chain optimization, and AI-powered decision-making.</p>
+        <div class="contact-items">
+          <a id="contactEmail" href="#" class="contact-link"></a>
+          <span id="contactLocation"></span>
+          <a href="tel:0660004799">+213 6600 4799</a>
+          <a id="contactEmail" href="#www.linkedin.com/in/mahmoud-maizi-0abb05206/" class="contact-link">LinkedIn</a>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "Mahmoud Maizi",
+  "role": "Frontend Developer & Digital Product Designer",
+  "tagline": "I design premium, fast, story-driven digital experiences that feel intentional in every pixel.",
+  "bio": "I build modern interfaces with a strong focus on visual hierarchy, motion, accessibility, and scalable front-end architecture. My work blends clean code with premium aesthetics to create memorable products.",
+  "location": "Algeria",
+  "email": "maizimahmoud12@gmail.com",
+  "phone": "+213 000 000 000",
+  "resumeHighlights": [
+    "Built responsive portfolio and product websites with modern UI patterns",
+    "Comfortable structuring static sites for free hosting and long-term maintainability",
+    "Focused on premium visual design, animation, and content-first experiences"
+  ],
+  "skills": ["HTML", "CSS", "JavaScript", "UI Design", "Responsive Design", "Motion Design"],
+  "socials": {
+    "github": "https://github.com/",
+    "linkedin": "https://linkedin.com/",
+    "behance": "https://behance.net/"
+  },
+  "heroStats": [
+    { "label": "Years Building", "value": "3+" },
+    { "label": "Projects Crafted", "value": "12" },
+    { "label": "Design Systems", "value": "5" }
+  ]
+}

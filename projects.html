@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects • Mahmoud Portfolio</title>
+  <link rel="stylesheet" href="projects.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="site-header">
+    <nav class="navbar shell">
+      <a href="index.html" class="brand">MM</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="admin.html" class="pill-link">Admin</a>
+      </div>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+    </nav>
+  </header>
+
+  <main class="shell page-space">
+    <section class="page-hero reveal">
+      <span class="eyebrow">Project Library</span>
+      <h1>Selected work</h1>
+      <p>Browse projects by category, search by name, and open each case study dynamically.</p>
+    </section>
+
+    <section class="toolbar glass-card reveal">
+      <input id="searchInput" type="search" placeholder="Search projects..." />
+      <div id="filterBar" class="filter-bar"></div>
+    </section>
+
+    <section>
+      <div id="projectsGrid" class="project-grid"></div>
+      <p id="emptyState" class="empty-state hidden">No projects match your search.</p>
+    </section>
+  </main>
+
+  <script src="projects.js"></script>
+</body>
+</html>

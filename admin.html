@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin • Mahmoud Portfolio</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="site-header">
+    <nav class="navbar shell">
+      <a href="index.html" class="brand">MM</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="admin.html" class="active pill-link">Admin</a>
+      </div>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+    </nav>
+  </header>
+
+  <main class="shell page-space">
+    <section id="loginCard" class="login-card glass-card reveal">
+      <span class="eyebrow">Protected Area</span>
+      <h1>Admin Access</h1>
+      <p>Use the admin password from settings.json to manage content locally.</p>
+      <form id="loginForm" class="stack-form">
+        <input id="adminPassword" type="password" placeholder="Enter password" required />
+        <button class="btn btn-primary" type="submit">Unlock Admin</button>
+        <p id="loginMessage" class="muted"></p>
+      </form>
+    </section>
+
+    <section id="adminPanel" class="admin-panel hidden">
+      <div class="admin-header reveal">
+        <div>
+          <span class="eyebrow">Content Manager</span>
+          <h1>Edit profile and project data</h1>
+        </div>
+        <div class="admin-actions">
+          <button id="exportBtn" class="btn btn-secondary">Export JSON</button>
+          <label class="btn btn-secondary import-label">
+            Import JSON
+            <input id="importInput" type="file" accept="application/json" hidden />
+          </label>
+          <button id="resetBtn" class="btn btn-secondary">Reset Local Data</button>
+        </div>
+      </div>
+
+      <div class="admin-grid">
+        <section class="glass-card reveal">
+          <h2>Profile Info</h2>
+          <form id="profileForm" class="stack-form"></form>
+        </section>
+
+        <section class="glass-card reveal">
+          <div class="section-heading compact-row">
+            <h2>Projects</h2>
+            <button id="addProjectBtn" class="btn btn-primary" type="button">Add Project</button>
+          </div>
+          <div id="projectList" class="admin-project-list"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <template id="projectEditorTemplate">
+    <article class="project-editor">
+      <div class="editor-top">
+        <strong class="editor-title"></strong>
+        <div class="editor-buttons">
+          <button class="move-up btn btn-mini" type="button">↑</button>
+          <button class="move-down btn btn-mini" type="button">↓</button>
+          <button class="delete-project btn btn-mini danger" type="button">Delete</button>
+        </div>
+      </div>
+      <div class="editor-grid"></div>
+    </article>
+  </template>
+
+  <script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Details</title>
+  <link rel="stylesheet" href="project.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="logo">MM</a>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="admin.html">Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="project-hero">
+      <div class="project-meta-top">
+        <span class="eyebrow" data-project-category>Category</span>
+        <span class="year" data-project-year>2026</span>
+      </div>
+
+      <h1 class="project-title" data-project-title>Project Title</h1>
+      <p class="project-short" data-project-short>Description</p>
+
+      <div class="project-info-grid">
+        <div class="info-card">
+          <span class="info-label">Client</span>
+          <p data-project-client>Client Name</p>
+        </div>
+
+        <div class="info-card">
+          <span class="info-label">Repository</span>
+          <a data-project-repo href="#" target="_blank" rel="noopener noreferrer">Repo ↗</a>
+          <span class="muted" data-project-repo-empty>No repo provided</span>
+        </div>
+
+        <div class="info-card">
+          <span class="info-label">Live Demo</span>
+          <a data-project-live href="#" target="_blank" rel="noopener noreferrer">Live ↗</a>
+          <span class="muted" data-project-live-empty>No live demo provided</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-cover-section">
+      <img data-project-cover class="project-cover" src="" alt="" />
+    </section>
+
+    <section class="project-content-grid">
+      <div class="content-main">
+        <div class="content-block">
+          <span class="eyebrow">Overview</span>
+          <p class="project-description" data-project-description></p>
+        </div>
+
+        <div class="content-block">
+          <span class="eyebrow">Gallery</span>
+          <div class="project-gallery" data-project-gallery></div>
+        </div>
+
+        <div class="content-block" data-project-video-wrapper style="display: none;">
+          <span class="eyebrow">Video</span>
+          <video data-project-video controls class="project-video"></video>
+        </div>
+      </div>
+
+      <aside class="content-side">
+        <div class="side-card">
+          <span class="eyebrow">Stack</span>
+          <div class="stack-list" data-project-stack></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="related-section">
+      <span class="eyebrow">More Work</span>
+      <h2>Related projects</h2>
+      <div class="related-grid" data-related-projects></div>
+    </section>
+  </main>
+
+  <script src="project.js"></script>
+</body>
+</html>

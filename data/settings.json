@@ -1,0 +1,8 @@
+{
+  "siteName": "Mahmoud Portfolio",
+  "theme": "dark",
+  "accent": "#b58cff",
+  "adminPassword": "admin123",
+  "featuredLimit": 2,
+  "enableVideoPreviews": true
+}

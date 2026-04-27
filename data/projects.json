@@ -1,4 +1,27 @@
- [
+[
+  {
+    "id": "drone-monitoring-system",
+    "title": "Drone-Based Construction Monitoring System",
+    "category": "AI / Computer Vision",
+    "featured": true,
+    "year": "2026",
+    "client": "Academic Project",
+    "stack": ["Computer Vision", "Drones", "Embedded Systems", "Python"],
+    "shortDescription": "Intelligent drone system for real-time monitoring of construction sites.",
+    "description": "Designed and developed an intelligent drone-based monitoring system using computer vision for real-time analysis of construction sites. The system tracks workers, materials, and activities while generating KPIs to enhance safety and productivity. Integrated embedded hardware components (GPS, ESC, flight controller) with software processing for autonomous and efficient operation.",
+    "thumbnail": "assets/images/internal-request-management1.png",
+    "gallery": [
+      "assets/images/internal-request-management1.png",
+      "assets/images/internal-request-management2.png",
+      "assets/images/internal-request-management3.png",
+      "assets/images/internal-request-management4.png"
+    ],
+    "video": "",
+    "liveUrl": "",
+    "repoUrl": "",
+    "order": 1
+  },
+
   {
     "id": "predictive-maintenance-air-algerie",
     "title": "Predictive Maintenance System for Aircraft Components",
@@ -11,13 +34,13 @@
     "description": "Developed a predictive maintenance system using industrial time-series data from multiple aircraft systems. Built and trained models (Logistic Regression, XGBoost) to detect failure patterns. Designed an interactive dashboard to visualize risk scores and support maintenance decision-making.",
     "thumbnail": "assets/images/predictive-maintenance-thumb.jpg",
     "gallery": [
-      "assets/images/predictive-maintenance-thumb.jpg",
-      "assets/images/predictive-maintenance-2.jpg"
+      "assets/images/predictive-maintenance.png",
+      "assets/images/predictive-maintenance-2.png"
     ],
     "video": "",
     "liveUrl": "",
     "repoUrl": "",
-    "order": 1
+    "order": 2
   },
 
   {
@@ -32,34 +55,83 @@
     "description": "Built a private cloud infrastructure using OpenStack, configuring Nova, Neutron, and Cinder services. Designed a high-availability architecture with redundancy and scalability, and performed performance validation for enterprise-level deployment.",
     "thumbnail": "assets/images/private-cloud-1.jpg",
     "gallery": [
-      "assets/images/private-cloud-1.jpg",
-      "assets/images/private-cloud-2.jpg"
-    ],
-    "video": "",
-    "liveUrl": "",
-    "repoUrl": "",
-    "order": 2
-  },
-  {
-    "id": "supply-chain-optimization-saidal",
-    "title": "Supply Chain & Inventory Optimization",
-    "category": "Industrial Engineering",
-    "featured": false,
-    "year": "2024",
-    "client": "Groupe Saidal",
-    "stack": ["Excel", "Data Analysis", "Supply Chain Methods"],
-    "shortDescription": "Optimized inventory and production workflows through data-driven analysis.",
-    "description": "Analyzed supply chain operations for raw materials and finished goods. Identified inefficiencies in stock management and proposed improvements for tracking and planning, contributing to better production and logistics performance.",
-    "thumbnail": "assets/images/supply-chain-thumb.jpg",
-    "gallery": [
-      "assets/images/supply-chain-1.jpg",
-      "assets/images/supply-chain-2.jpg"
+      "assets/images/private-cloud-1.jpg"
     ],
     "video": "",
     "liveUrl": "",
     "repoUrl": "",
     "order": 3
   },
+
+  {
+    "id": "pfe-management-platform",
+    "title": "PFE Management Web Platform",
+    "category": "Web Development",
+    "featured": true,
+    "year": "2025",
+    "client": "Academic Project",
+    "stack": ["HTML", "CSS", "JavaScript", "Node.js", "MySQL"],
+    "shortDescription": "Web platform to manage and assign final year projects (PFE) for students and supervisors.",
+    "description": "Developed a full-stack web application to manage final year projects (PFE). The platform allows students to browse and request projects, while supervisors can create, validate, and manage them. Implemented authentication, role-based access, and a MySQL database to ensure data integrity and traceability.",
+    "thumbnail": "assets/images/pfe-management-platform1.png",
+    "gallery": [
+      "assets/images/pfe-management-platform1.png",
+      "assets/images/pfe-management-platform2.png",
+      "assets/images/pfe-management-platform3.png",
+      "assets/images/pfe-management-platform4.png"
+    ],
+    "video": "",
+    "liveUrl": "",
+    "repoUrl": "",
+    "order": 4
+  },
+
+  {
+    "id": "nonconformity-management-system",
+    "title": "Non-Conformity Management System",
+    "category": "Industrial Engineering",
+    "featured": false,
+    "year": "2025",
+    "client": "Algérie Poste",
+    "stack": ["Process Analysis", "Digital Transformation", "Data Analysis"],
+    "shortDescription": "Improved quality management by designing a digital system for tracking non-conformities.",
+    "description": "Analyzed existing quality management processes based on manual methods and identified key inefficiencies such as lack of traceability and slow processing. Proposed a digital solution to centralize data, improve tracking, and enhance decision-making using structured workflows and data analysis.",
+    "thumbnail": "assets/images/nonconformity-management-system1.png",
+    "gallery": [
+      "assets/images/nonconformity-management-system1.png",
+      "assets/images/nonconformity-management-system2.png",
+      "assets/images/nonconformity-management-system3.png",
+      "assets/images/nonconformity-management-system4.png"
+    ],
+    "video": "",
+    "liveUrl": "",
+    "repoUrl": "",
+    "order": 5
+  },
+
+  {
+    "id": "internal-request-management",
+    "title": "Internal Request Management System",
+    "category": "Industrial Engineering",
+    "featured": false,
+    "year": "2025",
+    "client": "Stellantis",
+    "stack": ["Process Optimization", "Workflow Design", "Data Analysis"],
+    "shortDescription": "Optimized internal request handling by replacing manual tools with structured workflows.",
+    "description": "Studied internal request management processes based on emails and Excel. Identified issues such as lack of visibility, delays, and poor coordination. Proposed a centralized digital solution to improve tracking, real-time monitoring, and team collaboration.",
+    "thumbnail": "assets/images/internal-request-management1.png",
+    "gallery": [
+      "assets/images/internal-request-management1.png",
+      "assets/images/internal-request-management2.png",
+      "assets/images/internal-request-management3.png",
+      "assets/images/internal-request-management4.png"
+    ],
+    "video": "",
+    "liveUrl": "",
+    "repoUrl": "",
+    "order": 6
+  },
+
   {
     "id": "telecom-network-analysis",
     "title": "Telecom Network & Infrastructure Analysis",
@@ -70,14 +142,33 @@
     "stack": ["Networking", "DWDM", "Telecom Systems"],
     "shortDescription": "Analysis of telecom network architecture and transmission systems.",
     "description": "Studied mobile network architecture (2G/3G/4G), fiber infrastructure, and DWDM transmission systems. Analyzed protocols and contributed to network optimization and virtualization strategies (NFV).",
-    "thumbnail": "assets/images/telecom-thumb.jpg",
+    "thumbnail": "assets/images/huawei-logo-1.png",
     "gallery": [
-      "assets/images/telecom-1.jpg",
-      "assets/images/telecom-2.jpg"
+      "assets/images/shuawei-logo-1.png"
     ],
     "video": "",
     "liveUrl": "",
     "repoUrl": "",
-    "order": 4
+    "order": 7
+  },
+
+  {
+    "id": "supply-chain-optimization-saidal",
+    "title": "Supply Chain & Inventory Optimization",
+    "category": "Industrial Engineering",
+    "featured": false,
+    "year": "2024",
+    "client": "Groupe Saidal",
+    "stack": ["Excel", "Data Analysis", "Supply Chain Methods"],
+    "shortDescription": "Optimized inventory and production workflows through data-driven analysis.",
+    "description": "Analyzed supply chain operations for raw materials and finished goods. Identified inefficiencies in stock management and proposed improvements for tracking and planning, contributing to better production and logistics performance.",
+    "thumbnail": "assets/images/supply-chain-optimization-saidal.png",
+    "gallery": [
+      "assets/images/supply-chain-optimization-saidal.png"
+    ],
+    "video": "",
+    "liveUrl": "",
+    "repoUrl": "",
+    "order": 8
   }
 ]

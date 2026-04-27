@@ -160,9 +160,65 @@ a:hover {
   margin: 0;
 }
 
-.project-gallery {
+/* ===== Project gallery upgrade ===== */
+
+.project-gallery,
+[data-project-gallery] {
   display: grid;
-  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 18px;
+  max-width: 1100px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 26px;
+  background: linear-gradient(135deg, rgba(181,140,255,.16), rgba(123,231,255,.1));
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: 0 24px 70px rgba(0,0,0,.32);
+}
+
+.gallery-item:first-child {
+  grid-column: span 2;
+}
+
+.gallery-image,
+.project-gallery img,
+[data-project-gallery] img {
+  width: 100%;
+  height: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  display: block;
+  transition: transform .5s ease, filter .5s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.035);
+  filter: brightness(1.08);
+}
+
+.gallery-item::after {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .project-gallery,
+  [data-project-gallery] {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-item:first-child {
+    grid-column: span 1;
+  }
+
+  .gallery-image,
+  .project-gallery img,
+  [data-project-gallery] img {
+    max-height: 360px;
+  }
 }
 
 .gallery-item {

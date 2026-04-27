@@ -3,95 +3,155 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mahmoud Portfolio</title>
+  <title>Mahmoud Maizi | Portfolio</title>
   <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
   <div class="bg-orb orb-1"></div>
   <div class="bg-orb orb-2"></div>
 
-  <header class="site-header" id="top">
+  <header class="site-header">
     <nav class="navbar shell">
       <a href="index.html" class="brand">MM</a>
+
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="projects.html">Projects</a>
         <a href="#contact">Contact</a>
-        <a href="projects.html">All Work</a>
-        <a href="admin.html" class="pill-link">Admin</a>
+        <a href="admin.html">Admin</a>
       </div>
-      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+
+      <button id="themeToggle" class="theme-toggle">◐</button>
     </nav>
   </header>
 
   <main>
-    <section class="hero shell section-grid">
-      <div class="hero-copy reveal">
-        <span class="eyebrow"> Portfolio</span>
-        <h1 id="heroName">Loading...</h1>
-        <p class="hero-role" id="heroRole"></p>
-        <p class="hero-text" id="heroTagline"></p>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <span class="eyebrow">Portfolio</span>
+        <h1>Mahmoud Maizi</h1>
+        <p class="hero-role">Industrial & Logistics Engineering Student</p>
+        <p class="hero-text">
+          I work on optimizing industrial systems and supply chains by combining data, analytics, and engineering to build smarter, more efficient solutions.
+        </p>
+
         <div class="hero-actions">
           <a href="projects.html" class="btn btn-primary">View Projects</a>
           <a href="#contact" class="btn btn-secondary">Let’s Talk</a>
         </div>
       </div>
-      <div class="hero-panel reveal glass-card">
+
+      <div class="hero-panel glass-card">
         <div class="panel-top">
           <span class="status-dot"></span>
           <span>Available for selected projects</span>
         </div>
-        <p id="heroBio"></p>
-        <div class="stats" id="heroStats"></div>
+
+        <p>
+          Focused on predictive maintenance, cloud infrastructure, supply chain
+          optimization, and data-driven decision-making.
+        </p>
+
+        <div class="stats">
+          <div class="stat">
+            <strong>4+</strong>
+            <span>Major Projects</span>
+          </div>
+          <div class="stat">
+            <strong>3</strong>
+            <span>Industries</span>
+          </div>
+          <div class="stat">
+            <strong>2026</strong>
+            <span>Latest Work</span>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="about shell" id="about">
-      <div class="section-heading reveal">
-        <span class="eyebrow">About</span>
-        <h2>Structured, elegant, and built to scale.</h2>
-      </div>
+      <span class="eyebrow">About</span>
+      <h2>Structured, elegant, and built to scale.</h2>
+
       <div class="about-grid">
-        <article class="glass-card reveal">
+        <article class="about-card">
+          <span class="card-label">01</span>
           <h3>Profile Summary</h3>
-          <p id="aboutBio"></p>
+          <p>
+            Industrial & Logistics Engineering student with hands-on experience in
+            predictive maintenance, supply chain optimization, cloud infrastructure,
+            and telecom network analysis.
+          </p>
         </article>
-        <article class="glass-card reveal">
+
+        <article class="about-card">
+          <span class="card-label">02</span>
           <h3>CV Highlights</h3>
-          <ul id="highlightsList" class="feature-list"></ul>
+          <ul class="card-list">
+            <li>Built a predictive maintenance model for Air Algérie.</li>
+            <li>Designed private cloud infrastructure using OpenStack.</li>
+            <li>Improved inventory and production workflows for Saidal.</li>
+            <li>Analyzed telecom architecture, DWDM, and NFV systems.</li>
+          </ul>
         </article>
-        <article class="glass-card reveal">
+
+        <article class="about-card">
+          <span class="card-label">03</span>
           <h3>Core Skills</h3>
-          <div id="skillsList" class="tag-wrap"></div>
+          <div class="skills">
+         <span>Python</span>
+    <span>Machine Learning</span>
+    <span>Data Analysis</span>
+    <span>Predictive Maintenance</span>
+    <span>Streamlit</span>
+    <span>OpenStack</span>
+    <span>Cloud Infrastructure</span>
+    <span>Networking</span>
+    <span>Supply Chain</span>
+    <span>Inventory Optimization</span>
+    <span>Excel</span>
+    <span>Industrial Engineering</span>
+          </div>
         </article>
       </div>
     </section>
 
     <section class="featured-section">
-  <div class="container">
-    <span class="eyebrow">Selected Work</span>
-    <h2>projects:</h2>
+      <div class="shell">
+        <span class="eyebrow">Selected Work</span>
+        <h2>Featured projects :</h2>
 
-    <div class="projects-grid" id="featured-projects"></div>
-  </div>
-</section>
-<div class="projects-cta">
-  <a href="projects.html" class="btn btn-primary">
-    View All Projects →
-  </a>
-</div>
-    <section class="contact shell" id="contact">
-      <div class="glass-card contact-card reveal">
-        <span class="eyebrow">Contact</span>
-        <h2>Ready to optimize complex systems and build data-driven solutions?
-</h2>
-        <p>For industrial engineering, supply chain optimization, and AI-powered decision-making.</p>
-        <div class="contact-items">
-          <a id="contactEmail" href="#" class="contact-link"></a>
-          <span id="contactLocation"></span>
-          <a href="tel:0660004799">+213 6600 4799</a>
-          <a id="contactEmail" href="#www.linkedin.com/in/mahmoud-maizi-0abb05206/" class="contact-link">LinkedIn</a>
+        <div class="projects-grid" id="featured-projects"></div>
 
+        <div class="projects-cta">
+          <a href="projects.html" class="btn btn-primary">View All Projects →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section shell" id="contact">
+      <div class="contact-card">
+        <div>
+          <span class="eyebrow">Contact</span>
+          <h2>Let’s build something precise, efficient, and data-driven.</h2>
+          <p>
+            Available for industrial engineering, supply chain optimization,
+            predictive maintenance, and cloud infrastructure projects.
+          </p>
+
+          <div class="hero-actions">
+            <a href="mailto:maizimahmoud12@gmail.com" class="btn btn-primary">Send Email →</a>
+            <a href="tel:+21366004799" class="btn btn-secondary">Call Me</a>
+          </div>
+        </div>
+
+        <div class="contact-details">
+          <div><span>Email</span><a href="mailto:maizimahmoud12@gmail.com">maizimahmoud12@gmail.com</a></div>
+          <div><span>Location</span><p>Algeria</p></div>
+          <div><span>Phone</span><a href="tel:+21366004799">+213 6600 4799</a></div>
+          <div><span>LinkedIn</span><a href="https://www.linkedin.com/in/mahmoud-maizi-0abb05206/" target="_blank">View profile →</a></div>
+        </div>
       </div>
     </section>
   </main>
